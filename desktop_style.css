@@ -10,7 +10,7 @@ header{
     display: flex;
     padding-left: 200px;
     padding-right:150px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #191919;
 }
 
 .logo{
@@ -41,6 +41,43 @@ nav p{
 }
 
 button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    border: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.hero{
+    width: 1720px;
+    height: 350px;
+    background-color: #FFC017;
+    padding-left: 200px;
+    border-bottom: 1px solid #191919;
+    align-content: center;
+}
+
+h1{
+    font-size: 5em;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 35px;
+}
+
+.button_hero{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
