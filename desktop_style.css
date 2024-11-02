@@ -10,6 +10,7 @@ header{
     display: flex;
     padding-left: 200px;
     padding-right:150px;
+    border-bottom: 1px solid black;
 }
 
 .logo{
