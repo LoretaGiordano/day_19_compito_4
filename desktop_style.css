@@ -74,11 +74,21 @@ nav p{
 .hero{
     width: 1720px;
     height: 350px;
-    background-color: #FFC017;
     padding-left: 200px;
+}
+
+.hero_1{
+    width: 1720px;
+    height: 350px;
+    background-color: #FFC017;
     border-bottom: 1px solid #191919;
     align-content: center;
     padding-top: 100px;
+}
+
+.hero_2{
+    width: 1720px;
+    height: 350px;
 }
 
 h1{
