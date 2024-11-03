@@ -115,7 +115,6 @@ h1{
 /* INIZIO MAIN - SECTION 1 */
 
 .section_1{
-    background-color: aqua;
     width: 1720px;
     height: 50px;
     padding-top: 20PX;
@@ -143,7 +142,6 @@ h4{
 /* INIZIO MAIN - SECTION 2 */
 
 .section_2{
-    background-color: #FFC017;
     width: 1520px;
     display: flex;
     flex-wrap: wrap;
@@ -157,7 +155,6 @@ h4{
 }
 
 .articoli{
-    background-color: aqua;
     width: 400px;
     height: 120px;
     margin-top: 10px;
@@ -165,12 +162,11 @@ h4{
 }
 
 .numero_articolo{
-    background-color: red;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 2em;
-    color: #E6E7E7;
+    color:rgb(95, 98, 98);
     display: inline-block;
     width: 55px;
     height: 35px;
@@ -178,7 +174,6 @@ h4{
 }
 
 .info_articoli{
-    background-color: aquamarine;
     display: inline-flex;
     align-items: center;
     height: 30px;
@@ -247,7 +242,6 @@ h4{
 }
 
 .descrizione_articoli{
-    background-color: blueviolet;
     margin-top: 10px;
     margin-left: 58px;
     
@@ -262,7 +256,6 @@ h4{
 }
 
 .data_articoli{
-    background-color: blue;
     display: inline-flex;
     align-items: center;
     margin-left: 58px;
@@ -274,7 +267,7 @@ h4{
     font-style: normal;
     font-size: 0.70em;
     margin-right: 5px;
-    color: #E6E7E7;
+    color:rgb(95, 98, 98);
     display: inline-block;
 }
 
@@ -287,7 +280,6 @@ h4{
 /* FINE MAIN - SECTION 2 */
 
 .contenitore_section_3_and_aside_1{
-    background-color: chartreuse;
     width: 1520px;
     padding-left: 200px;
     padding-right: 200px;
@@ -297,14 +289,12 @@ h4{
 
 /* INIZIO MAIN - SECTION 3 */
 .section_3{
-    background-color: #635a41;
     width: 880px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .articoli_section_3{
-    background-color: brown;
     padding-bottom: 30px;
     margin-bottom: 30px;
     display: flex;
@@ -315,7 +305,6 @@ h4{
 }
 
 .testo_articoli_section_3{
-    background-color: aquamarine;
     width: 500px;
     height: 157px;
     display: flex;
@@ -325,7 +314,6 @@ h4{
 }
 
 .info_articoli_section_3{
-    background-color: rgb(30, 143, 105);
     display: inline-flex;
     align-items: center;
     height: 30px;
@@ -409,7 +397,6 @@ h4{
 }
 
 .descrizione_articoli_section_3{
-    background-color: blueviolet;
     margin-top: 10px;
 }
 
@@ -426,13 +413,12 @@ h4{
     font-weight: 400;
     font-style: normal;
     font-size: 0.80em;
-    color: #E6E7E7;
+    color:rgb(95, 98, 98);
     margin-bottom: 10px;
     line-height: 1.5;
 }
 
 .div_data_articoli_section_3{
-    background-color: cadetblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -440,7 +426,6 @@ h4{
 }
 
 .data_articoli_section_3{
-    background-color: blue;
     display: inline-flex;
     align-items: center;
 }
@@ -451,7 +436,7 @@ h4{
     font-style: normal;
     font-size: 0.70em;
     margin-right: 5px;
-    color: #E6E7E7;
+    color:rgb(95, 98, 98);
     display: inline-block;
 }
 
@@ -642,7 +627,6 @@ h4{
 
 /* INIZIO MAIN - ASIDE 1 */
 .aside_1{
-    background-color: #a37f1e;
     width: 550px;
     padding-left: 90px;
     padding-top: 40px;

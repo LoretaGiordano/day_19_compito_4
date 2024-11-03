@@ -114,7 +114,6 @@
     /* INIZIO MAIN - SECTION 1 */
     
     .section_1{
-        background-color: aqua;
         width: 430px;
         height: 50px;
         padding-top: 2PX;
@@ -142,7 +141,6 @@
     /* INIZIO MAIN - SECTION 2 */
     
     .section_2{
-        background-color: #FFC017;
         width: 410px;
         display: flex;
         flex-wrap: wrap;
@@ -156,7 +154,6 @@
     }
     
     .articoli{
-        background-color: aqua;
         width: 410px;
         height: 106px;
         margin-top: 5px;
@@ -168,7 +165,6 @@
     }
     
     .numero_articolo{
-        background-color: red;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-style: normal;
@@ -181,7 +177,6 @@
     }
     
     .info_articoli{
-        background-color: aquamarine;
         display: inline-flex;
         align-items: center;
         height: 30px;
@@ -250,7 +245,6 @@
     }
     
     .descrizione_articoli{
-        background-color: blueviolet;
         margin-top: 10px;
         margin-left: 58px;
         
@@ -265,7 +259,6 @@
     }
     
     .data_articoli{
-        background-color: blue;
         display: inline-flex;
         align-items: center;
         margin-left: 58px;
@@ -290,7 +283,6 @@
     /* FINE MAIN - SECTION 2 */
     
     .contenitore_section_3_and_aside_1{
-        background-color: chartreuse;
         width: 410px;
         padding-left: 20px;
         padding-right: 20px;
@@ -300,14 +292,12 @@
     
     /* INIZIO MAIN - SECTION 3 */
     .section_3{
-        background-color: #635a41;
         width: 410px;
         padding-top: 40px;
     
     }
     
     .articoli_section_3{
-        background-color: brown;
         margin-bottom: 30px;
         display: flex;
         flex-wrap: nowrap;
@@ -317,7 +307,6 @@
     }
     
     .testo_articoli_section_3{
-        background-color: aquamarine;
         width: 410px;
         display: flex;
         flex-wrap: wrap;
@@ -325,7 +314,6 @@
     }
     
     .info_articoli_section_3{
-        background-color: rgb(30, 143, 105);
         display: inline-flex;
         align-items: center;
         height: 30px;
@@ -409,7 +397,6 @@
     }
     
     .descrizione_articoli_section_3{
-        background-color: blueviolet;
         margin-top: 10px;
     }
     
@@ -432,7 +419,6 @@
     }
     
     .div_data_articoli_section_3{
-        background-color: cadetblue;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -440,7 +426,6 @@
     }
     
     .data_articoli_section_3{
-        background-color: blue;
         display: inline-flex;
         align-items: center;
     }
@@ -635,7 +620,6 @@
     
     /* INIZIO MAIN - ASIDE 1 */
     .aside_1{
-        background-color: #a37f1e;
         width: 450px;
         padding-top: 40px;
         padding-bottom: 40px;
