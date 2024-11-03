@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./base_di_partenza/assets/css/reset.css" />
+    <link rel="stylesheet" href="./mobile_style.css" />
     <link rel="stylesheet" href="./desktop_style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,9 +22,10 @@
   </head>
   <body>
     <!-- INIZIO HEADER -->
-    <header>
+    <header id="header">
       <div class="logo">
         <svg
+          class="svg_logo"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 3940 610"
@@ -40,7 +42,7 @@
           <p>Membership</p>
           <p>Write</p>
           <p>Sign In</p>
-          <button class="button_nav">Get Started</button>
+          <button id="button_nav">Get Started</button>
         </div>
       </nav>
     </header>
@@ -447,7 +449,6 @@
             <div class="opzione_8_aside_1">Productivity</div>
             <div class="opzione_9_aside_1">Politics</div>
           </div>
-          <hr />
           <div class="footer_in_aside">
             <p>Help</p>
             <p>Status</p>
@@ -463,6 +464,6 @@
         <!-- FINE MAIN - ASIDE 1  -->
       </div>
     </main>
-    <footer></footer>
+    <script src="./desktop_style.js"></script>
   </body>
 </html>
