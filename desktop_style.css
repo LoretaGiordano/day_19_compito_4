@@ -270,13 +270,20 @@ h4{
 
 /* FINE MAIN - SECTION 2 */
 
+.contenitore_section_3_and_aside_1{
+    background-color: chartreuse;
+    width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* INIZIO MAIN - SECTION 3 */
 .section_3{
     background-color: #635a41;
-    width: 760px;
+    width: 880px;
     padding-left: 200px;
-    padding-top: 20PX;
-    padding-bottom: 20PX;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .articoli_section_3{
@@ -288,8 +295,10 @@ h4{
 
 .testo_articoli_section_3{
     background-color: aquamarine;
-    width: 400px;
-    display: inline-block;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .info_articoli_section_3{
@@ -396,6 +405,15 @@ h4{
     font-size: 0.80em;
     color: #E6E7E7;
     margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.div_data_articoli_section_3{
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
 }
 
 .data_articoli_section_3{
@@ -438,7 +456,7 @@ h4{
     margin-right: 5px;
     color: #757575;
     background-color: #F2F3F3;
-    width: 40px;
+    width: 45px;
     height: 15px;
     border-radius: 100px;
     display: flex;
@@ -454,7 +472,7 @@ h4{
     margin-right: 5px;
     color: #757575;
     background-color: #F2F3F3;
-    width: 40px;
+    width: 125px;
     height: 15px;
     border-radius: 100px;
     display: flex;
@@ -470,7 +488,7 @@ h4{
     margin-right: 5px;
     color: #757575;
     background-color: #F2F3F3;
-    width: 40px;
+    width: 85px;
     height: 15px;
     border-radius: 100px;
     display: flex;
@@ -486,7 +504,7 @@ h4{
     margin-right: 5px;
     color: #757575;
     background-color: #F2F3F3;
-    width: 40px;
+    width: 45px;
     height: 15px;
     border-radius: 100px;
     display: flex;
@@ -502,7 +520,7 @@ h4{
     margin-right: 5px;
     color: #757575;
     background-color: #F2F3F3;
-    width: 40px;
+    width: 80px;
     height: 15px;
     border-radius: 100px;
     display: flex;
@@ -518,7 +536,7 @@ h4{
     margin-right: 5px;
     color: #757575;
     background-color: #F2F3F3;
-    width: 40px;
+    width: 45px;
     height: 15px;
     border-radius: 100px;
     display: flex;
@@ -531,12 +549,12 @@ h4{
     width: 25px;
     height: 25px;
     float: right;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .foto_1_articolo_section_3{
-    width: 190px;
-    height: 127px;
+    width: 240px;
+    height: 157px;
     margin-left: 20px;
     display: inline-block;
     background-size: cover;
@@ -544,8 +562,8 @@ h4{
     background-image: url(./base_di_partenza/assets/imgs/image08.jpeg);
 }
 .foto_2_articolo_section_3{
-    width: 190px;
-    height: 127px;
+    width: 240px;
+    height: 157px;
     margin-left: 20px;
     display: inline-block;
     background-size: cover;
@@ -553,8 +571,8 @@ h4{
     background-image: url(./base_di_partenza/assets/imgs/image10.jpeg);
 }
 .foto_3_articolo_section_3{
-    width: 190px;
-    height: 127px;
+    width: 240px;
+    height: 157px;
     margin-left: 20px;
     display: inline-block;
     background-size: cover;
@@ -562,8 +580,8 @@ h4{
     background-image: url(./base_di_partenza/assets/imgs/image12.png);
 }
 .foto_4_articolo_section_3{
-    width: 190px;
-    height: 127px;
+    width: 240px;
+    height: 157px;
     margin-left: 20px;
     display: inline-block;
     background-size: cover;
@@ -571,8 +589,8 @@ h4{
     background-image: url(./base_di_partenza/assets/imgs/image14.png);
 }
 .foto_5_articolo_section_3{
-    width: 190px;
-    height: 127px;
+    width: 240px;
+    height: 157px;
     margin-left: 20px;
     display: inline-block;
     background-size: cover;
@@ -580,8 +598,8 @@ h4{
     background-image: url(./base_di_partenza/assets/imgs/image16.jpg);
 }
 .foto_6_articolo_section_3{
-    width: 190px;
-    height: 127px;
+    width: 240px;
+    height: 157px;
     margin-left: 20px;
     display: inline-block;
     background-size: cover;
@@ -589,8 +607,8 @@ h4{
     background-image: url(./base_di_partenza/assets/imgs/image18.jpeg);
 }
 .foto_7_articolo_section_3{
-    width: 190px;
-    height: 127px;
+    width: 240px;
+    height: 157px;
     margin-left: 20px;
     display: inline-block;
     background-size: cover;
@@ -599,3 +617,5 @@ h4{
 }
 /* FINE MAIN - SECTION 3 */
 
+/* INIZIO MAIN - ASIDE 1 */
+/* FINE MAIN - ASIDE 1 */
