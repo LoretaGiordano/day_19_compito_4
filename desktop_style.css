@@ -248,7 +248,7 @@ h4{
 .data_articoli{
     background-color: blue;
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
     margin-left: 58px;
 }
 
@@ -257,7 +257,6 @@ h4{
     font-weight: 400;
     font-style: normal;
     font-size: 0.70em;
-    margin-bottom: 10px;
     margin-right: 5px;
     color: #E6E7E7;
     display: inline-block;
@@ -266,6 +265,7 @@ h4{
 .star_icon{
     width: 15px;
     height: 15px;
+    float: left;
 }
 
 /* FINE MAIN - SECTION 2 */
@@ -273,17 +273,17 @@ h4{
 /* INIZIO MAIN - SECTION 3 */
 .section_3{
     background-color: #635a41;
-    width: 1520px;
+    width: 760px;
     padding-left: 200px;
-    padding-right: 200px;
     padding-top: 20PX;
     padding-bottom: 20PX;
 }
 
 .articoli_section_3{
-background-color: brown;
-display: inline-flex;
-align-items: center;
+    background-color: brown;
+    display: inline-flex;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .testo_articoli_section_3{
@@ -293,7 +293,7 @@ align-items: center;
 }
 
 .info_articoli_section_3{
-    background-color: aquamarine;
+    background-color: rgb(30, 143, 105);
     display: inline-flex;
     align-items: center;
     height: 30px;
@@ -308,12 +308,66 @@ align-items: center;
     background-position: center;
     background-image: url(./base_di_partenza/assets/imgs/image07.jpeg);
 }
-.icon_2_section_3{}
-.icon_3_section_3{}
-.icon_4_section_3{}
-.icon_5_section_3{}
-.icon_6_section_3{}
-.icon_7_section_3{}
+
+.icon_2_section_3{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image09.jpeg);
+}
+
+.icon_3_section_3{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image11.jpeg);
+}
+
+.icon_4_section_3{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image13.png);
+}
+
+.icon_5_section_3{    
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image15.jpeg);}
+
+
+.icon_6_section_3{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image17.png);
+}
+
+.icon_7_section_3{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image19.jpeg);
+}
 
 .autore_section_3{
     font-family: "Roboto", sans-serif;
@@ -347,7 +401,7 @@ align-items: center;
 .data_articoli_section_3{
     background-color: blue;
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .p_3_articolo_section_3{
@@ -355,21 +409,122 @@ align-items: center;
     font-weight: 400;
     font-style: normal;
     font-size: 0.70em;
-    margin-bottom: 10px;
     margin-right: 5px;
     color: #E6E7E7;
     display: inline-block;
 }
 
-.p_4_articolo_section_3{
+.p_4_articolo_section_3_one{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 0.70em;
-    margin-bottom: 10px;
     margin-right: 5px;
-    color: #E6E7E7;
-    display: inline-block;
+    color: #757575;
+    background-color: #F2F3F3;
+    width: 40px;
+    height: 15px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.p_4_articolo_section_3_two{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.70em;
+    margin-right: 5px;
+    color: #757575;
+    background-color: #F2F3F3;
+    width: 40px;
+    height: 15px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.p_4_articolo_section_3_three{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.70em;
+    margin-right: 5px;
+    color: #757575;
+    background-color: #F2F3F3;
+    width: 40px;
+    height: 15px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.p_4_articolo_section_3_four{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.70em;
+    margin-right: 5px;
+    color: #757575;
+    background-color: #F2F3F3;
+    width: 40px;
+    height: 15px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.p_4_articolo_section_3_five{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.70em;
+    margin-right: 5px;
+    color: #757575;
+    background-color: #F2F3F3;
+    width: 40px;
+    height: 15px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.p_4_articolo_section_3_six{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.70em;
+    margin-right: 5px;
+    color: #757575;
+    background-color: #F2F3F3;
+    width: 40px;
+    height: 15px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.p_4_articolo_section_3_seven{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.70em;
+    margin-right: 5px;
+    color: #757575;
+    background-color: #F2F3F3;
+    width: 40px;
+    height: 15px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .bookmark_icon{
@@ -379,7 +534,7 @@ align-items: center;
     margin-right: 5px;
 }
 
-.foto_articolo_section_3{
+.foto_1_articolo_section_3{
     width: 190px;
     height: 127px;
     margin-left: 20px;
@@ -387,6 +542,60 @@ align-items: center;
     background-size: cover;
     background-position: center;
     background-image: url(./base_di_partenza/assets/imgs/image08.jpeg);
+}
+.foto_2_articolo_section_3{
+    width: 190px;
+    height: 127px;
+    margin-left: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image10.jpeg);
+}
+.foto_3_articolo_section_3{
+    width: 190px;
+    height: 127px;
+    margin-left: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image12.png);
+}
+.foto_4_articolo_section_3{
+    width: 190px;
+    height: 127px;
+    margin-left: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image14.png);
+}
+.foto_5_articolo_section_3{
+    width: 190px;
+    height: 127px;
+    margin-left: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image16.jpg);
+}
+.foto_6_articolo_section_3{
+    width: 190px;
+    height: 127px;
+    margin-left: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image18.jpeg);
+}
+.foto_7_articolo_section_3{
+    width: 190px;
+    height: 127px;
+    margin-left: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./base_di_partenza/assets/imgs/image20.jpg);
 }
 /* FINE MAIN - SECTION 3 */
 
