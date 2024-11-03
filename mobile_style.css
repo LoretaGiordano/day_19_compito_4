@@ -169,7 +169,7 @@
         font-weight: 500;
         font-style: normal;
         font-size: 1.5em;
-        color: #E6E7E7;
+        color:rgb(95, 98, 98);
         display: inline-block;
         width: 45px;
         height: 35px;
@@ -270,7 +270,7 @@
         font-style: normal;
         font-size: 0.70em;
         margin-right: 5px;
-        color: #E6E7E7;
+        color:rgb(95, 98, 98);
         display: inline-block;
     }
     
@@ -413,7 +413,7 @@
         font-weight: 400;
         font-style: normal;
         font-size: 0.80em;
-        color: #E6E7E7;
+        color:rgb(95, 98, 98);
         margin-bottom: 10px;
         line-height: 1.5;
     }
@@ -436,7 +436,7 @@
         font-style: normal;
         font-size: 0.70em;
         margin-right: 5px;
-        color: #E6E7E7;
+        color:rgb(95, 98, 98);
         display: inline-block;
     }
     
